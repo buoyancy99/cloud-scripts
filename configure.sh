@@ -19,7 +19,7 @@ sudo dpkg-reconfigure -f noninteractive tzdata
 set -e
 
 sudo apt-get update
-sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -yq
+# sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -yq
 
 # Prepare for NVidia drivers install
 sudo apt-get install -y gcc make pkg-config xserver-xorg-dev linux-headers-$(uname -r) xterm
