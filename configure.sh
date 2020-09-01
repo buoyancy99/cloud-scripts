@@ -12,6 +12,8 @@ else
     NVIDIA_DRIVER=440.82
 fi
 
+sudo apt-get install -y blueman
+
 set -e
 
 sudo apt-get update
