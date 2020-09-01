@@ -13,6 +13,8 @@ else
 fi
 
 sudo apt-get install -y blueman
+sudo ln -fs /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+sudo dpkg-reconfigure -f noninteractive tzdata
 
 set -e
 
